@@ -445,6 +445,9 @@ Made with:
 <br> <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="150" />
 
 <br><br>
+🐍 Backend
+
+https://github.com/Neahans/bloom-ai-ecommerce-backend
 
 </div>
 ```
