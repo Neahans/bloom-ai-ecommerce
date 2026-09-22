@@ -4,16 +4,21 @@
 
 ### ✨ A little place for beautiful finds & smart shopping ✨
 
-<img src="https://img.shields.io/badge/React-Frontend-59633B?style=for-the-badge&logo=react&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-Backend-E9A0A8?style=for-the-badge&logo=django&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-Gemini-FFF4E8?style=for-the-badge&logo=google&logoColor=59633B" />
-<img src="https://img.shields.io/badge/SQLite-Database-59633B?style=for-the-badge&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/React-Frontend-59633B?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/React_Router-Routing-E9A0A8?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router" />
+<img src="https://img.shields.io/badge/Django-Backend-59633B?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+<img src="https://img.shields.io/badge/Google_Gemini-AI-FFF4E8?style=for-the-badge&logo=google&logoColor=59633B" alt="Google Gemini" />
 
-<br><br>
+<br />
 
-<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="100" />
+<img src="https://img.shields.io/badge/Status-In_Development-E9A0A8?style=flat-square" alt="Status" />
+<img src="https://img.shields.io/github/license/Neahans/bloom-ai-ecommerce?style=flat-square&color=59633B" alt="License" />
 
-### 🌸 Shop • Discover • Chat • Bloom 🌸
+<br /><br />
+
+🌸 🧸 🌿 🛍️ ✨ 🌷
+
+### Shop • Discover • Chat • Bloom
 
 </div>
 
@@ -21,69 +26,120 @@
 
 ## 🪴 About Bloom AI
 
-**Bloom AI** is a mini full-stack e-commerce platform designed to make online shopping feel simple, aesthetic, and a little more personal.
+**Bloom AI** is an aesthetic mini e-commerce frontend designed to make online shopping feel simple, friendly, and a little more personal.
 
-The project combines a **React frontend**, **Django REST API backend**, and **Gemini-powered AI chatbot** to create a modern shopping experience.
+The project combines a modern **React.js frontend** with a **Django REST API backend** and a **Google Gemini-powered AI shopping assistant**.
 
 > 🌷 *Tell Bloom what you're looking for — and let your shopping journey bloom.*
+
+The interface follows a soft editorial aesthetic using **olive green, blush pink, cream, and neutral tones**.
 
 ---
 
 ## 🎀 Features
 
-### 🛍️ Shopping
+### 🛍️ Shopping Experience
 
-- ✦ Browse products
-- 🌸 Product categories
-- 👜 Product detail pages
-- 💕 Wishlist-style UI
-- 🛒 Shopping cart
-- 📦 Stock availability
-- 🔎 Product discovery
+* ✦ Browse products
+* 🌸 Browse products by category
+* 👜 View detailed product information
+* 📦 Display stock availability
+* 💕 Wishlist-style interactions
+* 🛒 Cart integration
+* 🔎 Product discovery
 
 ### 🤖 Bloom AI
 
-Meet your personal shopping buddy!
+Meet your personal shopping buddy.
 
-You can ask things like:
+Users can ask Bloom AI questions such as:
 
 ```text
 "I need something under ₹1500. Can you recommend a product?"
-
 ```
-Bloom AI uses Google Gemini to respond to shopping-related questions.
 
-🔐 Authentication
-👤 User registration
-🔑 JWT authentication
-🔒 Protected cart API
-♡ User-specific cart items
-🎨 UI & Design
-🌿 Olive green + blush pink + cream aesthetic
-✨ Responsive design
-🪞 Editorial-style homepage
-📱 Mobile-friendly layout
-🌸 Clean product cards
-🤍 Minimal shopping experience
-🧸 Tech Stack
-<div align="center">
-🌷 Layer	🛠️ Technology
-🎨 Frontend	React.js
-🌐 Routing	React Router
-🐍 Backend	Django
-🔌 API	Django REST Framework
-🤖 AI	Google Gemini
-🔐 Authentication	JWT
-🗄️ Database	SQLite
-🌸 Styling	CSS
-📦 Package Manager	npm
-</div>
-🌱 Project Structure
+The chatbot communicates with the Django backend, which connects to **Google Gemini** to generate responses.
+
+### 🔐 Authentication
+
+The connected backend supports:
+
+* 👤 User registration
+* 🔑 JWT authentication
+* 🔒 Protected cart operations
+* ♡ User-specific cart items
+
+### 🎨 UI & Design
+
+* 🌿 Olive green + blush pink + cream palette
+* ✨ Editorial-style homepage
+* 🪞 Minimal product cards
+* 📱 Responsive layout
+* 🌸 Soft rounded UI elements
+* 🤍 Clean and lightweight design
+* 🧸 Floating Bloom AI chatbot
+
+---
+
+## 🧸 Tech Stack
+
+| 🌷 Layer           | 🛠️ Technology        |
+| ------------------ | --------------------- |
+| 🎨 Frontend        | React.js              |
+| 🌐 Routing         | React Router          |
+| 🐍 Backend         | Django                |
+| 🔌 API             | Django REST Framework |
+| 🤖 AI              | Google Gemini         |
+| 🔐 Authentication  | JWT                   |
+| 🗄️ Database       | SQLite                |
+| 🎀 Styling         | CSS                   |
+| 📦 Package Manager | npm                   |
+
+---
+
+## 🌱 Project Architecture
+
+```text
+                    🌸 BLOOM AI
+                         │
+                         ▼
+                ┌─────────────────┐
+                │   React.js UI   │
+                │                 │
+                │  Home           │
+                │  Shop           │
+                │  Product Detail │
+                │  Cart           │
+                │  Bloom AI       │
+                └────────┬────────┘
+                         │
+                         │ REST API
+                         ▼
+                ┌─────────────────┐
+                │ Django Backend  │
+                │                 │
+                │ Products        │
+                │ Authentication  │
+                │ Cart            │
+                │ Chatbot         │
+                └────────┬────────┘
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
+        🗄️ SQLite             🤖 Gemini AI
+```
+
+---
+
+## 🌸 Frontend Structure
+
+```text
 bloom-ai-ecommerce/
 │
 ├── public/
 │
 ├── src/
+│   │
 │   ├── components/
 │   │   ├── Chatbot.js
 │   │   ├── Chatbot.css
@@ -103,75 +159,163 @@ bloom-ai-ecommerce/
 │   ├── index.js
 │   └── index.css
 │
+├── .gitignore
 ├── package.json
 ├── package-lock.json
 └── README.md
-🪻 Screens
-🏡 Home
+```
 
-A soft editorial-style homepage featuring:
+---
 
-✨ Hero section
-🌸 Shop categories
-👜 New arrivals
-🌿 Bloom AI introduction
-💌 Newsletter section
-🪴 Feature highlights
-🛍️ Shop
+## 🏡 Pages
 
-Browse the available products and filter them by category.
+### 🌷 Home
 
-💕 Product Details
+The Bloom homepage includes:
 
-View:
+* ✨ Editorial hero section
+* 🌸 Category exploration
+* 👜 New arrivals
+* 🌿 Bloom AI introduction
+* 💌 Newsletter section
+* 🪴 Shopping features
+* 🎀 Footer navigation
 
-Product image
-Product name
-Category
-Price
-Description
-Stock availability
-🤖 Bloom AI
+### 🛍️ Shop
 
-A floating AI shopping assistant that lets users ask questions and receive Gemini-powered responses.
+The shop page retrieves products from the Django REST API and allows users to filter them by category.
 
-🌸 Example Products
-🛍️ Product	🌷 Category	💰 Price
-Blush Tote Bag	Fashion	₹899
-Olive Green Hoodie	Fashion	₹1,499
-Olive Wireless Headphones	Electronics	₹2,499
-Minimal Sneakers	Footwear	₹3,299
-Rose Skincare Set	Beauty	₹1,299
-🚀 Getting Started
-1️⃣ Clone the repository
+Current categories include:
+
+* 👗 Fashion
+* 💄 Beauty
+* 🎧 Electronics
+* 👟 Footwear
+
+### 💕 Product Details
+
+Each product page displays:
+
+* Product image
+* Product name
+* Category
+* Price
+* Description
+* Stock availability
+* Add-to-cart interface
+
+### 🤖 Bloom AI
+
+Bloom AI appears as a floating shopping assistant.
+
+Users can open the chatbot and ask shopping-related questions without leaving the store.
+
+---
+
+## 🛍️ Sample Products
+
+| 👜 Product                | 🌷 Category | 💰 Price |
+| ------------------------- | ----------- | -------: |
+| Blush Tote Bag            | Fashion     |     ₹899 |
+| Olive Green Hoodie        | Fashion     |   ₹1,499 |
+| Olive Wireless Headphones | Electronics |   ₹2,499 |
+| Minimal Sneakers          | Footwear    |   ₹3,299 |
+| Rose Skincare Set         | Beauty      |   ₹1,299 |
+
+---
+
+## 🖼️ Preview
+
+### 🏡 Bloom Homepage
+
+> ✨ Add your homepage screenshot here
+
+```text
+docs/screenshots/home.png
+```
+
+### 🛍️ Shop
+
+> 🌸 Add your shop screenshot here
+
+```text
+docs/screenshots/shop.png
+```
+
+### 💕 Product Details
+
+> 👜 Add your product details screenshot here
+
+```text
+docs/screenshots/product-details.png
+```
+
+### 🤖 Bloom AI
+
+> 🌿 Add your chatbot screenshot here
+
+```text
+docs/screenshots/bloom-ai.png
+```
+
+💡 **Tip:** Once you upload your screenshots to GitHub, replace these placeholders with:
+
+```markdown
+![Bloom Homepage](docs/screenshots/home.png)
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/Neahans/bloom-ai-ecommerce.git
+```
+
+### 2️⃣ Open the project
+
+```bash
 cd bloom-ai-ecommerce
-2️⃣ Install dependencies
+```
+
+### 3️⃣ Install dependencies
+
+```bash
 npm install
-3️⃣ Start the React frontend
+```
+
+### 4️⃣ Start the React development server
+
+```bash
 npm start
+```
 
-The frontend will run at:
+The frontend will be available at:
 
+```text
 http://localhost:3000
-🤖 Bloom AI Setup
+```
 
-The AI chatbot communicates with the Django backend.
+---
 
-The backend requires a Gemini API key stored in an environment variable.
+## 🐍 Django Backend
 
-Create a .env file in the Django backend:
+The React frontend communicates with a separate Django REST API backend.
 
-GEMINI_API_KEY=your_api_key_here
+The backend provides APIs for:
 
-🔒 Never commit your .env file or expose your API key publicly.
+```text
+Products
+Authentication
+Cart
+Bloom AI
+```
 
-🌿 Backend
+Example API routes:
 
-The frontend communicates with the Django REST API.
-
-Example endpoints:
-
+```text
 GET  /api/products/
 GET  /api/products/<id>/
 
@@ -183,127 +327,132 @@ GET  /api/cart/
 POST /api/cart/
 
 POST /api/chat/
-🧁 Future Improvements
+```
+
+---
+
+## 🤖 Gemini AI Configuration
+
+Bloom AI requires a Gemini API key on the **Django backend**.
+
+Create a `.env` file in the backend project:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+Then make sure your Django backend loads the environment variable before starting the server.
+
+### 🔒 Important
+
+**Never commit your `.env` file or expose your Gemini API key.**
+
+The frontend repository does not need to contain the API key.
+
+---
+
+## 🌸 How Bloom AI Works
+
+```text
+👩 User
+   │
+   │ "Recommend something under ₹1500"
+   ▼
+🌷 React Chatbot
+   │
+   │ POST /api/chat/
+   ▼
+🐍 Django REST API
+   │
+   │ Gemini request
+   ▼
+🤖 Google Gemini
+   │
+   │ AI response
+   ▼
+🐍 Django
+   │
+   ▼
+🌷 Bloom AI Chatbot
+```
+
+---
+
+## 🧁 Future Improvements
 
 Bloom is still growing 🌱
 
 Planned improvements include:
 
-🛒 Complete checkout system
-💳 Payment integration
-📦 Order management
-❤️ Persistent wishlist
-🔍 Product search
-🧠 Smarter AI product recommendations
-👤 User profile
-📊 Admin dashboard
-📱 Improved mobile experience
-🎀 Why Bloom AI?
+* 🛒 Complete checkout flow
+* 💳 Payment integration
+* 📦 Order management
+* ❤️ Persistent wishlist
+* 🔎 Product search
+* 🧠 Smarter AI product recommendations
+* 👤 User profile
+* 📊 Admin dashboard
+* 🧾 Order history
+* 📱 Improved mobile experience
+* ✨ Better personalized recommendations
 
-Bloom AI was created to explore how modern web technologies and generative AI can work together in an e-commerce experience.
+---
 
-The project combines:
+## 🌿 Why Bloom AI?
 
-React
-   ↓
-Django REST API
-   ↓
-Database
-   ↓
-Gemini AI
+Bloom AI was created as a learning project to explore how **modern frontend development, REST APIs, authentication, databases, and generative AI** can work together in an e-commerce application.
 
-🌷 Simple shopping + 🤖 AI assistance + 🎨 aesthetic design
+The project brings together:
 
-💌 Made With Love
+```text
+🎨 React
+   +
+🐍 Django REST API
+   +
+🗄️ Database
+   +
+🤖 Generative AI
+   =
+🌿 Bloom AI
+```
+
+---
+
+## 💌 Made With Love
+
 <div align="center">
 
-🌿 Bloom AI 🌿
+### 🌿 Bloom AI 🌿
 
-Made with
-React ✦ Django ✦ Gemini AI ✦ CSS
+Made with:
 
-<br> <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="150" />
+**React** ✦ **Django** ✦ **Gemini AI** ✦ **CSS**
 
-<br><br>
+<br />
 
-✨ Keep growing. Keep creating. Keep blooming. ✨
+🌸 🧸 🌿 🛍️ ✨ 🌷
 
-♡ 🌸 🌿 🧸 🌷 ♡
+### ✨ Keep growing. Keep creating. Keep blooming. ✨
 
-</div> ```
+<br />
 
+**Made by [Neaha N S](https://github.com/Neahans)**
 
+</div>
+```
 
+### 🌷 One important change from your current README
 
+I intentionally **removed the entire Create React App section** that is currently sitting at the bottom of your GitHub README. Your live file still has that default CRA material after your Bloom content.
 
+Also, don't add the screenshot paths yet unless you've actually created those files. The placeholders above are there so you know exactly where we can add your **Home / Shop / Product / Bloom AI screenshots** later.
 
-# Getting Started with Create React App
+After replacing `README.md`, run:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```powershell
+git add README.md
+git commit -m "Improve Bloom AI README"
+git push
+```
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Then refresh your GitHub repository. 🌿✨
