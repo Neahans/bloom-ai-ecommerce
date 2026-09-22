@@ -16,6 +16,10 @@
 
 <br /><br />
 
+<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="100" />
+
+
+
 🌸 🧸 🌿 🛍️ ✨ 🌷
 
 ### Shop • Discover • Chat • Bloom
@@ -441,18 +445,6 @@ Made with:
 </div>
 ```
 
-### 🌷 One important change from your current README
+<br> <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="150" />
 
-I intentionally **removed the entire Create React App section** that is currently sitting at the bottom of your GitHub README. Your live file still has that default CRA material after your Bloom content.
-
-Also, don't add the screenshot paths yet unless you've actually created those files. The placeholders above are there so you know exactly where we can add your **Home / Shop / Product / Bloom AI screenshots** later.
-
-After replacing `README.md`, run:
-
-```powershell
-git add README.md
-git commit -m "Improve Bloom AI README"
-git push
-```
-
-Then refresh your GitHub repository. 🌿✨
+<br><br>
