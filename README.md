@@ -442,9 +442,10 @@ Made with:
 
 **Made by [Neaha N S](https://github.com/Neahans)**
 
-</div>
-```
-
 <br> <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="150" />
 
 <br><br>
+
+</div>
+```
+
